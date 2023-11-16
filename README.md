@@ -1,5 +1,3 @@
-# README
-
 # Bash Scripts
 Bash script files
 
