@@ -4,18 +4,18 @@
 
 
 #permission to execute this file (do this once)
-#chmod u+x autoupdate.sh
+chmod u+x autoupdate.sh
+
+
 
 #variables
 ansy=--yes
-ansn=--no
 #input argument stored
 ansArg=$@
 #package manager name
 pm=apt
 
 
-#do it now
 
 #create subshell
 eval '$(sudo $pm update)'
@@ -27,5 +27,5 @@ echo "$ansArg"
 
 sudo $pm autoremove $ansy
 
-#uncomment below to auto-reboot after update
+#uncomment below to auto-reboot after upgrade
 #reboot
