@@ -19,3 +19,5 @@ If you want to use the shell to enter a package manager each time then you can c
 If you want to auto-reboot after the auto-upgrade just uncomment the last line.
 
 After the first run comment out line 7 with the symbol: #
+
+Finally, in the bash shell run the command: bash autoupdate.sh
