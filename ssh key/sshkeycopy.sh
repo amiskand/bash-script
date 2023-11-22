@@ -1,9 +1,6 @@
 #! /usr/bin/bash
 
-#run this file using the command "bash sshkeycopy.sh" without the quotes
 
-#if the above bash directory is incorrect then uncomment the line below to find the proper director
-#which bash
 
 #permission to execute this file (do this once then comment it out with a # sign)
 chmod u+x sshkeycopy.sh
