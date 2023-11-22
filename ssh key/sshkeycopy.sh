@@ -5,7 +5,7 @@
 #permission to execute this file (do this once then comment it out with a # sign)
 chmod u+x sshkeycopy.sh
 
-ansy=--yes
+
 user=userNameOnOtherEnd
 port=22
 ipaddr=127.0.0.1

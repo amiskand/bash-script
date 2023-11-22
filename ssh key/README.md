@@ -1,7 +1,7 @@
 # README
 Follow the instructions on this read me and inside this file to know how to use and modify the bash script.
 
-# instructions
+# Instructions
 Run this file using the command "bash sshkeycopy.sh" without the quotes.
 
 If the above bash directory is incorrect then type: which bash
