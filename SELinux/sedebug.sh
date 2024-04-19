@@ -29,3 +29,4 @@ sudo audit2allow -i /var/log/audit/audit.log --module local > local.te
 
 #checkmodule -M -m -o local.mod local.te
 #semodule_package -o local.pp -m local.mod
+
